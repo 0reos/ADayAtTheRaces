@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Panel1 = new System.Windows.Forms.Panel();
             this.RbAl = new System.Windows.Forms.RadioButton();
             this.RbBob = new System.Windows.Forms.RadioButton();
@@ -158,7 +159,7 @@
             this.txtbAl.Location = new System.Drawing.Point(149, 68);
             this.txtbAl.Name = "txtbAl";
             this.txtbAl.ReadOnly = true;
-            this.txtbAl.Size = new System.Drawing.Size(171, 20);
+            this.txtbAl.Size = new System.Drawing.Size(171, 21);
             this.txtbAl.TabIndex = 4;
             // 
             // txtbBob
@@ -167,7 +168,7 @@
             this.txtbBob.Location = new System.Drawing.Point(149, 42);
             this.txtbBob.Name = "txtbBob";
             this.txtbBob.ReadOnly = true;
-            this.txtbBob.Size = new System.Drawing.Size(171, 20);
+            this.txtbBob.Size = new System.Drawing.Size(171, 21);
             this.txtbBob.TabIndex = 4;
             // 
             // txtbJoe
@@ -176,7 +177,7 @@
             this.txtbJoe.Location = new System.Drawing.Point(149, 16);
             this.txtbJoe.Name = "txtbJoe";
             this.txtbJoe.ReadOnly = true;
-            this.txtbJoe.Size = new System.Drawing.Size(171, 20);
+            this.txtbJoe.Size = new System.Drawing.Size(171, 21);
             this.txtbJoe.TabIndex = 4;
             // 
             // NumericUpDownDogNum
@@ -315,9 +316,11 @@
             this.Controls.Add(this.Kappa);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.Panel1);
+            this.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Kappa Race";
             this.Panel1.ResumeLayout(false);
             this.Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NumericUpDownDogNum)).EndInit();
