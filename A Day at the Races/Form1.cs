@@ -84,7 +84,7 @@ namespace A_Day_at_the_Races
 
             RadioButton FakeRB = (RadioButton) sender;
 
-            //Making the radiobuttons change the text of the place bet button
+            //Making the radiobuttons change the text of the place bet button.
             if (FakeRB.Checked == true)
 
                 switch (FakeRB.Name)
