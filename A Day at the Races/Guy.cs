@@ -18,12 +18,11 @@ namespace A_Day_at_the_Races
         public Label MyLabel;
 
 
-        public void UpdateLabels()
+        public void UpdateLabelsButtons()
         {
             //Set my label to my bet's description, and the label on my
             //Radio button to show my cash ("Joe has $43")      
             
-             
         }
 
         public void ClearBet()

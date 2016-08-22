@@ -52,6 +52,8 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.Kappa = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NumericUpDownDogNum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NumericUpDownCashBet)).BeginInit();
@@ -156,7 +158,7 @@
             // txtbAl
             // 
             this.txtbAl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtbAl.Location = new System.Drawing.Point(149, 68);
+            this.txtbAl.Location = new System.Drawing.Point(148, 68);
             this.txtbAl.Name = "txtbAl";
             this.txtbAl.ReadOnly = true;
             this.txtbAl.Size = new System.Drawing.Size(171, 21);
@@ -165,7 +167,7 @@
             // txtbBob
             // 
             this.txtbBob.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtbBob.Location = new System.Drawing.Point(149, 42);
+            this.txtbBob.Location = new System.Drawing.Point(148, 42);
             this.txtbBob.Name = "txtbBob";
             this.txtbBob.ReadOnly = true;
             this.txtbBob.Size = new System.Drawing.Size(171, 21);
@@ -174,7 +176,7 @@
             // txtbJoe
             // 
             this.txtbJoe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtbJoe.Location = new System.Drawing.Point(149, 16);
+            this.txtbJoe.Location = new System.Drawing.Point(148, 16);
             this.txtbJoe.Name = "txtbJoe";
             this.txtbJoe.ReadOnly = true;
             this.txtbJoe.Size = new System.Drawing.Size(171, 21);
@@ -231,6 +233,7 @@
             // 
             // Pb1
             // 
+            this.Pb1.BackColor = System.Drawing.Color.LightCoral;
             this.Pb1.Location = new System.Drawing.Point(8, 3);
             this.Pb1.Name = "Pb1";
             this.Pb1.Size = new System.Drawing.Size(120, 124);
@@ -239,6 +242,7 @@
             // 
             // Pb2
             // 
+            this.Pb2.BackColor = System.Drawing.Color.LightCoral;
             this.Pb2.Location = new System.Drawing.Point(134, 3);
             this.Pb2.Name = "Pb2";
             this.Pb2.Size = new System.Drawing.Size(120, 124);
@@ -263,22 +267,24 @@
             // 
             // PbFinishLine
             // 
-            this.PbFinishLine.Location = new System.Drawing.Point(8, 289);
+            this.PbFinishLine.BackColor = System.Drawing.Color.Transparent;
+            this.PbFinishLine.Location = new System.Drawing.Point(0, 486);
             this.PbFinishLine.Name = "PbFinishLine";
-            this.PbFinishLine.Size = new System.Drawing.Size(489, 245);
+            this.PbFinishLine.Size = new System.Drawing.Size(527, 76);
             this.PbFinishLine.TabIndex = 5;
             this.PbFinishLine.TabStop = false;
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.Pb1);
-            this.panel2.Controls.Add(this.PbFinishLine);
-            this.panel2.Controls.Add(this.Pb2);
+            this.panel2.BackColor = System.Drawing.Color.LightCoral;
             this.panel2.Controls.Add(this.Pb4);
             this.panel2.Controls.Add(this.Pb3);
-            this.panel2.Location = new System.Drawing.Point(342, 12);
+            this.panel2.Controls.Add(this.Pb2);
+            this.panel2.Controls.Add(this.Pb1);
+            this.panel2.Controls.Add(this.PbFinishLine);
+            this.panel2.Location = new System.Drawing.Point(342, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(514, 537);
+            this.panel2.Size = new System.Drawing.Size(530, 562);
             this.panel2.TabIndex = 6;
             // 
             // Kappa
@@ -301,12 +307,30 @@
             this.label1.TabIndex = 7;
             this.label1.Text = "Race";
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Black;
+            this.panel3.Location = new System.Drawing.Point(335, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(10, 562);
+            this.panel3.TabIndex = 8;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Black;
+            this.panel4.Location = new System.Drawing.Point(0, 180);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(344, 10);
+            this.panel4.TabIndex = 9;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(868, 561);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Kappa);
             this.Controls.Add(this.panel2);
@@ -356,6 +380,8 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label Kappa;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel4;
     }
 }
 

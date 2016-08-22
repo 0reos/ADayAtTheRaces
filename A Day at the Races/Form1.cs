@@ -22,7 +22,6 @@ namespace A_Day_at_the_Races
         {
             InitializeComponent();
             Load();
-            //AllRadioBtns();
         }
         
         public void Load()
@@ -55,10 +54,11 @@ namespace A_Day_at_the_Races
                     System.Threading.Thread.Sleep(20);
                     
                     //Stopping the race at the finish line
-                    if (dog[i].MyPictureBox.Top > 400)
+                    if (dog[i].MyPictureBox.Top > 420)
                     {
                         end = true;
-                        //Display the winner and there winnings or someting like that through a dialog box
+                        //Display the winner and there winnings or something like that through a dialog box
+                        MessageBox.Show("'Kappa' won + winnings ");
                     }
                 }
             }
@@ -82,7 +82,7 @@ namespace A_Day_at_the_Races
         private void AllRadioBtns(object sender, EventArgs e)
         {
 
-            RadioButton FakeRB = (RadioButton) sender;
+            RadioButton FakeRB = (RadioButton)sender;
 
             //Making the radiobuttons change the text of the place bet button
             if (FakeRB.Checked == true)
@@ -108,5 +108,6 @@ namespace A_Day_at_the_Races
                         break;
                 }
         }
+
     }
 }

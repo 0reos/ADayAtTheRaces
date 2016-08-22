@@ -13,7 +13,7 @@ namespace A_Day_at_the_Races
         public string Name;
         public int StartingPostion; //Where the picture box starts
         public int RacetrackLength; //Length of racetrack
-        public PictureBox MyPictureBox = null;
+        public PictureBox MyPictureBox;
         public int Location = 0; //My Location on the racetrack
         public Random Randomizer; //An instance of random
         public int distance;
