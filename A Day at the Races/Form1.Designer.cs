@@ -231,7 +231,6 @@
             // 
             // Pb1
             // 
-            this.Pb1.Image = global::A_Day_at_the_Races.ResourceFile.Kappa;
             this.Pb1.Location = new System.Drawing.Point(8, 3);
             this.Pb1.Name = "Pb1";
             this.Pb1.Size = new System.Drawing.Size(120, 124);
@@ -240,7 +239,6 @@
             // 
             // Pb2
             // 
-            this.Pb2.Image = global::A_Day_at_the_Races.ResourceFile.Kappa;
             this.Pb2.Location = new System.Drawing.Point(134, 3);
             this.Pb2.Name = "Pb2";
             this.Pb2.Size = new System.Drawing.Size(120, 124);
@@ -249,7 +247,6 @@
             // 
             // Pb3
             // 
-            this.Pb3.Image = global::A_Day_at_the_Races.ResourceFile.Kappa;
             this.Pb3.Location = new System.Drawing.Point(260, 3);
             this.Pb3.Name = "Pb3";
             this.Pb3.Size = new System.Drawing.Size(120, 124);
@@ -258,7 +255,6 @@
             // 
             // Pb4
             // 
-            this.Pb4.Image = global::A_Day_at_the_Races.ResourceFile.Kappa;
             this.Pb4.Location = new System.Drawing.Point(386, 3);
             this.Pb4.Name = "Pb4";
             this.Pb4.Size = new System.Drawing.Size(120, 124);
@@ -267,7 +263,6 @@
             // 
             // PbFinishLine
             // 
-            this.PbFinishLine.Image = global::A_Day_at_the_Races.ResourceFile.FinishLine;
             this.PbFinishLine.Location = new System.Drawing.Point(8, 289);
             this.PbFinishLine.Name = "PbFinishLine";
             this.PbFinishLine.Size = new System.Drawing.Size(489, 245);

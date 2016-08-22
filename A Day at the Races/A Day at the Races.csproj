@@ -92,7 +92,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\FinishLine.png" />
+    <None Include="Resources\Kappa - Copy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kappa - Copy.png_32x32.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\GoldenKappa.png" />
@@ -107,10 +110,7 @@
     <None Include="Resources\KappaSwag.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Kappa - Copy.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Kappa - Copy.png_32x32.png" />
+    <None Include="Resources\FinishLine.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
