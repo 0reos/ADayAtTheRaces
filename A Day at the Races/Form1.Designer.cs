@@ -54,6 +54,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
             this.Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NumericUpDownDogNum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NumericUpDownCashBet)).BeginInit();
@@ -233,7 +237,8 @@
             // 
             // Pb1
             // 
-            this.Pb1.BackColor = System.Drawing.Color.LightCoral;
+            this.Pb1.BackColor = System.Drawing.Color.NavajoWhite;
+            this.Pb1.Image = global::A_Day_at_the_Races.ResourceFile.Kappa;
             this.Pb1.Location = new System.Drawing.Point(8, 3);
             this.Pb1.Name = "Pb1";
             this.Pb1.Size = new System.Drawing.Size(120, 124);
@@ -242,7 +247,8 @@
             // 
             // Pb2
             // 
-            this.Pb2.BackColor = System.Drawing.Color.LightCoral;
+            this.Pb2.BackColor = System.Drawing.Color.NavajoWhite;
+            this.Pb2.Image = global::A_Day_at_the_Races.ResourceFile.KappaPride;
             this.Pb2.Location = new System.Drawing.Point(134, 3);
             this.Pb2.Name = "Pb2";
             this.Pb2.Size = new System.Drawing.Size(120, 124);
@@ -251,6 +257,8 @@
             // 
             // Pb3
             // 
+            this.Pb3.BackColor = System.Drawing.Color.NavajoWhite;
+            this.Pb3.Image = global::A_Day_at_the_Races.ResourceFile.KappaSwag;
             this.Pb3.Location = new System.Drawing.Point(260, 3);
             this.Pb3.Name = "Pb3";
             this.Pb3.Size = new System.Drawing.Size(120, 124);
@@ -259,6 +267,8 @@
             // 
             // Pb4
             // 
+            this.Pb4.BackColor = System.Drawing.Color.NavajoWhite;
+            this.Pb4.Image = global::A_Day_at_the_Races.ResourceFile.GoldenKappa;
             this.Pb4.Location = new System.Drawing.Point(386, 3);
             this.Pb4.Name = "Pb4";
             this.Pb4.Size = new System.Drawing.Size(120, 124);
@@ -268,6 +278,7 @@
             // PbFinishLine
             // 
             this.PbFinishLine.BackColor = System.Drawing.Color.Transparent;
+            this.PbFinishLine.Image = global::A_Day_at_the_Races.ResourceFile.FinishLine;
             this.PbFinishLine.Location = new System.Drawing.Point(0, 486);
             this.PbFinishLine.Name = "PbFinishLine";
             this.PbFinishLine.Size = new System.Drawing.Size(527, 76);
@@ -276,12 +287,16 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.LightCoral;
+            this.panel2.BackColor = System.Drawing.Color.Black;
             this.panel2.Controls.Add(this.Pb4);
             this.panel2.Controls.Add(this.Pb3);
             this.panel2.Controls.Add(this.Pb2);
             this.panel2.Controls.Add(this.Pb1);
             this.panel2.Controls.Add(this.PbFinishLine);
+            this.panel2.Controls.Add(this.panel5);
+            this.panel2.Controls.Add(this.panel7);
+            this.panel2.Controls.Add(this.panel8);
+            this.panel2.Controls.Add(this.panel6);
             this.panel2.Location = new System.Drawing.Point(342, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(530, 562);
@@ -323,11 +338,43 @@
             this.panel4.Size = new System.Drawing.Size(344, 10);
             this.panel4.TabIndex = 9;
             // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.NavajoWhite;
+            this.panel5.Location = new System.Drawing.Point(3, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(125, 562);
+            this.panel5.TabIndex = 6;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.NavajoWhite;
+            this.panel6.Location = new System.Drawing.Point(134, 0);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(120, 565);
+            this.panel6.TabIndex = 7;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.NavajoWhite;
+            this.panel7.Location = new System.Drawing.Point(260, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(120, 562);
+            this.panel7.TabIndex = 7;
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.NavajoWhite;
+            this.panel8.Location = new System.Drawing.Point(386, 0);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(128, 565);
+            this.panel8.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.BurlyWood;
+            this.BackColor = System.Drawing.Color.DarkOrchid;
             this.ClientSize = new System.Drawing.Size(868, 561);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
@@ -382,6 +429,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel panel5;
     }
 }
 

@@ -31,6 +31,10 @@ namespace A_Day_at_the_Races
         {
             //The parameter is the winner of the race. If the dog won, return the amount bet. 
             //Otherwise, return the negative of the amount bet
+            //if (b)
+            //{
+                
+            //}
             return Winner;
         }
 

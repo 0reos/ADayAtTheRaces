@@ -42,7 +42,7 @@ namespace A_Day_at_the_Races
         //public Collect(int Winner)
         //{
         //    //Asks my bet to pay out
-        //    return;
+        //    return Winner;
         //}
 
     }

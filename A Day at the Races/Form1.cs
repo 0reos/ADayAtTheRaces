@@ -59,6 +59,7 @@ namespace A_Day_at_the_Races
                         end = true;
                         //Display the winner and there winnings or something like that through a dialog box
                         MessageBox.Show("'Kappa' won + winnings ");
+                        btnRace.Enabled = false;
                     }
                 }
             }
@@ -71,6 +72,7 @@ namespace A_Day_at_the_Races
             {
                 dog[i].MyPictureBox.Top = 3;
             }
+            btnRace.Enabled = true;
         }
 
         private void btnPlaceBet_Click(object sender, EventArgs e)
